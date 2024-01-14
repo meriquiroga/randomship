@@ -1,0 +1,141 @@
+/* Hoja de estilos */
+* {
+  margin: 0;
+  padding: 10;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(244, 244, 244);
+}
+.header {
+  padding: 25px 60px 40px 60px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.title {
+  text-align: center;
+  color: rgb(87, 87, 90);
+}
+.subtitle {
+  text-align: center;
+  color: rgb(87, 87, 90);
+  font-size: 14px;
+  margin-top: 10px;
+  margin-bottom: æ;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 40px 30px 80px 30px
+}
+.firstBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card {
+  display: flex;
+  padding: 25px;
+  flex-direction: column;
+  box-shadow: 2px 2px 8px 4px #d3d3d3d1;
+  border-radius: 15px;
+  margin: 25px;
+  padding-bottom: 10px;
+  margin-top: 100px;
+  text-align: center;
+  width: 220px;
+}
+.img {
+  position: relative;
+  bottom: 100px;
+  border-radius: 100px;
+  box-shadow: 2px 2px 8px 4px #d3d3d3d1;
+}
+.name {
+  position: relative;
+  bottom: 60px;
+  text-align: center;
+  color: rgb(87, 87, 90);
+}
+p {
+  color: rgb(87, 87, 90);
+  font-size: x-small;
+  margin-bottom: 5px;
+}
+.age {
+  display: flex;
+  position: relative;
+  bottom: 40px;
+  flex-direction: row;
+  justify-content: center;
+}
+.gender {
+  display: flex;
+  position: relative;
+  bottom: 35px;
+  justify-content: center;
+  background-color: #28b0c6;
+  margin-top: 10px;
+  width: 60px;
+  border-radius: 10px;
+}
+.genderText {
+  background-color: transparent;
+  color: white;
+  padding: 3px;
+  text-decoration: none;
+  margin-bottom: 0px;
+}
+.info {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  justify-content: center;
+}
+.button {
+  background-color: #28b0c6;
+  border-color: transparent;
+  border-radius: 60px;
+  height: 30px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.button:hover {
+  opacity: 0.8;
+  border-color: transparent;
+  transform: scale(1.1);
+}
+.button-text {
+  background-color: transparent;
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+}
+i {
+  margin-right: 5px;
+  color: #28b0c6;
+}
+.footer {
+  background-color: #28b0c6;
+  padding: 50px;
+}
+.contact {
+  background-color: transparent;
+  color: white;
+  text-decoration: none;
+}
+.copy {
+  background-color: transparent;
+  color: white;
+  margin-top: 20px;
+  align-self: center;
+}
+.footer i {
+  background-color: transparent;
+  color: white;
+}
+a {
+  font-size: small;
+}
