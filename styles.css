@@ -26,9 +26,7 @@
 }
 .container {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin: 40px 30px 80px 30px
+  margin: 40px 30px 80px 30px;
 }
 .firstBlock {
   display: flex;
@@ -107,7 +105,7 @@ p {
   border-color: transparent;
   transform: scale(1.1);
 }
-.button-text {
+.buttonText {
   background-color: transparent;
   color: white;
   padding: 10px;
@@ -140,12 +138,12 @@ i {
 a {
   font-size: small;
 }
-.input{
-display: flex;
-justify-content: center;
-margin-top: 20px;
+.input {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
 }
-input{
+input {
   border-style: solid;
   border-color: #28b0c6;
   border-radius: 20px;
@@ -153,6 +151,29 @@ input{
   width: 300px;
   text-align: center;
 }
-input:focus{
+input:focus {
   outline: none;
+}
+.notFound {
+  text-align: center;
+  color: rgb(87, 87, 90);
+  font-size: 14px;
+  margin-top: 40px;
+  display: none;
+}
+li {
+  list-style: none;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  width: 95%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.userList li.hide {
+  display: none;
+}
+.loading {
+  height: 400px;
 }

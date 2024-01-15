@@ -19,14 +19,16 @@
 
 <body>
     <h2 class="title">Encuentra nuevos amigos alrededor del mundo</h2>
-    <p class="subtitle">Únete a nuestra comunidad y cambiemos el mundo juntos.</p>
+    <p class="subtitle">Únete a nuestra comunidad y transformemos el mundo juntos.</p>
     <div class="input">
-        <input type="text" name="search" placeholder="Encuentra tu próxima amistad" onChange={}/>
+        <input type="text" id="search" placeholder="Encuentra tu próxima amistad">
     </div>
     <div class="container">
-
-        
-
+        <ul id="list" class="userList">
+            <li>
+                <div class="loading">Cargando...</div>
+            </li>
+        </ul>
     </div>
 </body>
 <footer class="footer">
