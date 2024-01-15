@@ -154,13 +154,6 @@ input {
 input:focus {
   outline: none;
 }
-.notFound {
-  text-align: center;
-  color: rgb(87, 87, 90);
-  font-size: 14px;
-  margin-top: 40px;
-  display: none;
-}
 li {
   list-style: none;
 }
@@ -170,6 +163,7 @@ ul {
   width: 95%;
   flex-wrap: wrap;
   justify-content: center;
+  min-height: 400px;
 }
 .userList li.hide {
   display: none;
